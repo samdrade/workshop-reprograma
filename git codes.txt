@@ -1,0 +1,32 @@
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma
+$ ls
+css/  img/  index.html
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma
+$ ls -a
+./  ../  css/  img/  index.html
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma
+$ git init
+Initialized empty Git repository in C:/Users/Sam Drade/Documents/reprograma/.git/
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (master)
+$ ls -a
+./  ../  .git/  css/  img/  index.html
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (master)
+$ git remote -v
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (master)
+$ git remote add origin https://github.com/samdrade/workshop-reprograma.git
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (master)
+$ git remote -v
+origin  https://github.com/samdrade/workshop-reprograma.git (fetch)
+origin  https://github.com/samdrade/workshop-reprograma.git (push)
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (master)
+$
+
+

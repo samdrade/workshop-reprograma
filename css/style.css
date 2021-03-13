@@ -1,0 +1,78 @@
+/* GERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif    ;
+}
+
+/* BANNER */
+
+.banner {
+    background: url(../img/paradise.jpg) center no-repeat;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    padding: 1%;
+    color: rgb(244, 248, 244);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.banner-titulo{
+    font-size: 4rem;
+    text-align: start;
+}
+
+.banner-subtitulo{
+    font-size: 2rem;
+    text-align:right;
+    margin-bottom: 0,5%;
+}
+
+/*LINKS*/
+
+.link {
+    text-transform: uppercase;
+    padding: 2%;
+    font-size: 1,5rem;
+    font-weight: bold;
+    text-align:inherit;
+    margin-top: -5%;
+    margin-left: 1%;
+}
+
+.link-branco {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+
+/*Informações Sobre */
+
+.container-sobre {
+    max-width: 100vw;
+    margin: 0 auto;
+}
+
+.sobre-titulo {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(71, 70, 70);
+}
+
+.container-sobre-informações {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.sobre-descrição,.sobre-habilidades {
+    width: 45%;
+    height: 50%;
+}
