@@ -30,3 +30,138 @@ Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (master)
 $
 
 
+Novo tudo
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma
+$ ls
+css/  img/  index.html
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma
+$ ls -a
+./  ../  css/  img/  index.html
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma
+$ git init
+Initialized empty Git repository in C:/Users/Sam Drade/Documents/reprograma/.git/
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (master)
+$ ls -a
+./  ../  .git/  css/  img/  index.html
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (master)
+$ git remote -v
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (master)
+$ git remote add origin https://github.com/samdrade/workshop-reprograma.git
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (master)
+$ git remote -v
+origin  https://github.com/samdrade/workshop-reprograma.git (fetch)
+origin  https://github.com/samdrade/workshop-reprograma.git (push)
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (master)
+$ ^C
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (master)
+$ git branch -M main
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (main)
+$ git config --global user.name "Samdrade"
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (main)
+$ git config --global user.email "samdrades2@gmail.com"
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (main)
+$ git config --global user.email
+samdrades2@gmail.com
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (main)
+$ git config --global user.name
+Samdrade
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        css/
+        git codes.txt
+        img/
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (main)
+$ git add index.html
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (main)
+$  git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        css/
+        git codes.txt
+        img/
+
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (main)
+$ git add .
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   css/style.css
+        new file:   git codes.txt
+        new file:   img/paradise.jpg
+        new file:   index.html
+
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (main)
+$ git commit -m "envia arquivos do workshop reprograma"
+[main (root-commit) e16597b] envia arquivos do workshop reprograma
+ 4 files changed, 155 insertions(+)
+ create mode 100644 css/style.css
+ create mode 100644 git codes.txt
+ create mode 100644 img/paradise.jpg
+ create mode 100644 index.html
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (main)
+$ git push -u origin main
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/samdrade/workshop-reprograma.git/'
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (main)
+$ git push -u origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 68.95 KiB | 311.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/samdrade/workshop-reprograma.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+Sam Drade@LAPTOP-74A3EJDA MINGW32 ~/Documents/reprograma (main)
+$
+
